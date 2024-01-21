@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nomad Security</title>
+    <meta name="description" content="Protecting your Digital Journey">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/favicon.ico') }}">
+</head>
+<header>
+    <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          <a href="/" class="d-flex align-items-right mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="{{ url_for('static', filename='img/nomadsec-logo-square.png') }}" class="logo size-32px" alt="logo" width="32" height="32" />
+            <span class="fs-4">Nomad Security</span>
+          </a>
+    
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+          </ul>
+        </header>
+      </div>
+</header>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Nomad Security</h1>
+        </div>
+        
+        <div class="content">
+            <h2>Log in</h2>
+            <form action="login.php" method="post">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" autofocus>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Log in">
+            </form>
+        </div>
+    </div>

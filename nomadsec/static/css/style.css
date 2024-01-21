@@ -1,0 +1,125 @@
+@import "bootstrap.css";
+@import "bootstrap-utilities.css";
+
+/* Custom Logo CSS */
+
+.logo {
+    width: 100%;
+    height: 100%;
+    background-image: url("{{ url_for('static', filename='img/nomadsec-logo-square.png') }}");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.size-xsmall{
+    width: 10%;
+    height: 10%;
+}
+.size-small {
+    width: 25%;
+    height: 25%;
+}
+
+.size-medium {
+    width: 50%;
+    height: 50%;
+}
+
+.size-large {
+    width: 75%;
+    height: 75%;  
+}
+
+.size-xlarge{
+    width: 100%;
+    height: 100%;
+}
+
+.size-32px {
+    width: 32px;
+    height: 32px;
+}
+
+.size-64px {
+    width: 64px;
+    height: 64px;
+}
+
+.size-100px {
+    width: 100px;
+    height: 100px;
+}
+
+.size-250px {
+    width: 250px;
+    height: 250px;
+}   
+
+.size-300px {
+    width: 300px;
+    height: 300px;
+}   
+
+
+/* Background/Font COLOR PALETTE */
+
+/* Monochrome Grays */
+.bg-gray-1 { background-color: #f8f9fa; color: #212529; } /* Soft light gray */
+.bg-gray-2 { background-color: #e9ecef; color: #212529; } /* Light gray */
+.bg-gray-3 { background-color: #dee2e6; color: #212529; } /* Mid-light gray */
+.bg-gray-4 { background-color: #ced4da; color: #212529; } /* Mid gray */
+.bg-gray-5 { background-color: #adb5bd; color: #212529; } /* Neutral gray */
+.bg-gray-6 { background-color: #6c757d; color: #f8f9fa; } /* Dim gray */
+.bg-gray-7 { background-color: #495057; color: #f8f9fa; } /* Dark gray */
+.bg-gray-8 { background-color: #343a40; color: #f8f9fa; } /* Darker gray */
+
+/* Soft Blues */
+.bg-blue-1 { background-color: #e7f5ff; color: #212529; } /* Softest blue */
+.bg-blue-2 { background-color: #d0ebff; color: #212529; } /* Very light blue */
+.bg-blue-3 { background-color: #a5d8ff; color: #212529; } /* Light blue */
+.bg-blue-4 { background-color: #74c0fc; color: #212529; } /* Soft blue */
+.bg-blue-5 { background-color: #4dabf7; color: #212529; } /* Slightly richer blue */
+
+/* Soft Orange/Reds */
+.bg-orange-red-1 { background-color: #ffe8e8; color: #212529; } /* Softest orange-red */
+.bg-orange-red-2 { background-color: #ffc9c9; color: #212529; } /* Very light orange-red */
+.bg-orange-red-3 { background-color: #ffa8a8; color: #212529; } /* Light orange-red */
+.bg-orange-red-4 { background-color: #ff8787; color: #212529; } /* Soft orange-red */
+.bg-orange-red-5 { background-color: #ff6b6b; color: #212529; } /* Medium orange-red */
+.bg-orange-red-6 { background-color: #fa5252; color: #f8f9fa; } /* Rich orange-red */
+
+/* Soft Purples */
+.bg-purple-1 { background-color: #ede7f6; color: #212529; } /* Softest purple */
+.bg-purple-2 { background-color: #d0bfff; color: #212529; } /* Light purple */
+.bg-purple-3 { background-color: #b197fc; color: #f8f9fa; } /* Soft purple */
+
+/* Font Colors for Monochrome Grays */
+.font-color-gray-1 { color: #f8f9fa; }
+.font-color-gray-2 { color: #e9ecef; }
+.font-color-gray-3 { color: #dee2e6; }
+.font-color-gray-4 { color: #ced4da; }
+.font-color-gray-5 { color: #adb5bd; }
+.font-color-gray-6 { color: #6c757d; }
+.font-color-gray-7 { color: #495057; }
+.font-color-gray-8 { color: #343a40; }
+
+/* Font Colors for Soft Blues */
+.font-color-blue-1 { color: #e7f5ff; }
+.font-color-blue-2 { color: #d0ebff; }
+.font-color-blue-3 { color: #a5d8ff; }
+.font-color-blue-4 { color: #74c0fc; }
+.font-color-blue-5 { color: #4dabf7; }
+
+/* Font Colors for Soft Orange/Reds */
+.font-color-orange-red-1 { color: #ffe8e8; }
+.font-color-orange-red-2 { color: #ffc9c9; }
+.font-color-orange-red-3 { color: #ffa8a8; }
+.font-color-orange-red-4 { color: #ff8787; }
+.font-color-orange-red-5 { color: #ff6b6b; }
+.font-color-orange-red-6 { color: #fa5252; }
+
+/* Font Colors for Soft Purples */
+.font-color-purple-1 { color: #ede7f6; }
+.font-color-purple-2 { color: #d0bfff; }
+.font-color-purple-3 { color: #b197fc; }
