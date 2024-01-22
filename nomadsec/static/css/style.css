@@ -3,6 +3,12 @@
 
 /* Custom Logo CSS */
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .logo {
     width: 100%;
     height: 100%;
