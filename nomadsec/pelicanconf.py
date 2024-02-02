@@ -1,6 +1,6 @@
 AUTHOR = 'Michael Stringer'
 SITENAME = 'Nomad Security'
-SITEURL = "https://nomadsec.io/"
+SITEURL = "https://nomadsec.io"
 
 PATH = "content"
 
@@ -17,7 +17,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Nomad Security", "https://nomadsec.io/")
+    ("Nomad Security", "https://nomadsec.io/"),
 )
 
 # Social widget

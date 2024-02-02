@@ -1,4 +1,4 @@
-Title: When AI Goes Rogue: The Next Frontier of Cybersecurity Threats 
+Title: When AI Goes Rogue - The Next Frontier of Cybersecurity Threats 
 Date: 2024-02-01
 Category: Red Team
 Tags: red team, penetration testing, AI
